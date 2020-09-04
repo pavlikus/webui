@@ -1,0 +1,30 @@
+{
+  "name": "webui",
+  "version": "1.0.0",
+  "description": "Small Pet Project for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlikus/webui.git"
+  },
+  "keywords": [
+    "pet",
+    "project",
+    "webpack"
+  ],
+  "author": "Pavlik",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pavlikus/webui/issues"
+  },
+  "homepage": "https://github.com/pavlikus/webui#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
+  }
+}

@@ -23,5 +23,4 @@ package-lock.json
 .\#*
 
 # Working test output file
-*.json
 *.csv
